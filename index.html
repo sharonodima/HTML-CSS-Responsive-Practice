@@ -1,15 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Add Google Fonts here-->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <!--Link your stylesheet here-->
+    <link rel="stylesheet" href="css/index.css" />
+    <title>The Watering Can</title>
+  </head>
+  <body>
+    <nav>
+      <div class='logo'>
+        <img
+          src="images/logo.png"
+          alt="illustration of a watering can with a seedling"
+        />
+      </div>
 
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+      <div class='links'>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#plants">Plants</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <header id="home">
+      <div class='cta'>
+        <h1 class='title'>The Watering Can</h1>
+        <button>Shop Our Indoor Plant Sale</button>
+      </div>
+    </header>
+
+    <section id="about">
+      <div>
+        <h2>Our Story</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+          sodales sit amet elit sit amet tincidunt. In hac habitasse platea
+          dictumst. Nunc blandit porttitor gravida. Cras tincidunt elit diam,
+          quis vestibulum augue gravida ac. Vivamus cursus varius est, eget
+          aliquet erat ornare sit amet. Curabitur pulvinar vel eros nec luctus.
+          Fusce ut imperdiet odio. Suspendisse et imperdiet augue. Vivamus orci
+          dui, laoreet vel elit id, suscipit placerat sem. Morbi ac sapien est.
+          Curabitur at nulla in purus aliquet viverra. Proin non ipsum placerat,
+          eleifend arcu a, dictum enim. Nulla gravida iaculis metus, vel
+          fermentum nunc pellentesque ultricies.
+        </p>
+      </div>
+    </section>
+
+    <section id="plants">
+      <h2>Our Plants</h2>
+      <div class='container'>
+        <div class='bg succulents'></div>
+        <div class='text'>
+          <div>
+            <h3>Succuluents</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button>Shop Now!</button>
+          </div>
+        </div>
+        <div class='text'>
+          <div>
+            <h3>Cacti</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button>Shop Now!</button>
+          </div>
+        </div>
+        <div class='bg cacti'></div>
+        <div class='bg tropicals'></div>
+        <div class='text'>
+          <div>
+            <h3>Tropicals</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button>Shop Now!</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <h2>Get In Touch!</h2>
+      <div class="footer-container">
+        <div class="left">
+          <div class="find-us-here">
+            <h3>Find us here:</h3>
+            <address>
+              123 Plant Lane<br />
+              Bloomfield, Ontario<br />
+              Canada L2G 0X7
+            </address>
+            <a href="tel:1-613-978-8282">1-613-978-8282</a><br />
+            <a href="mailto:info@thewatercan.ca">info@thewatercan.ca</a>
+            <p>@thewatercan for social media</p>
+          </div>
+        </div>
+
+        <div class="right">
+          <div>
+            <img class='img-wrapper' src="images/shop.jpg" alt="inside of a plant shop" />
+          </div>
+        </div>
+      </div>
+      <p class='copyright'>Copyright 2022</p>
+    </footer>
+  </body>
 </html>
